@@ -1,0 +1,22 @@
+
+ROS SANDSTORM version 4.6 by RickOShay
+--------------------------------------
+You may use ROSsandstorm as long as this header text is not removed and all original files are kept intact
+and NOT EDITED and the folder structure is retained. Full credit must be given in any mission or mod that
+uses this or any other associated script or asset dependency. If you wish to modify this script the original
+scripts must be archived in your mission folder and you must state this and any other script has been redacted
+(edited) at the top of the script file and full credit must be given in all derivative work.
+
+FEATURES:
+---------
+Storm random scheduler for Listen/Dedicated servers, variable storm density, fixed or random storm length,
+variable colour and wind strength, variable visibility, indoor outdoor & in vehicle sound attenuation, wind
+affects small and medium sized objects - works day and night, protective eyewear check and damage, the scheduler script auto adjusts number of sandstorms based on available time to 24h00, allowance for existing mission time acceleration and wind settings, random prob of certain hats blowing off. Variable enemy response based on visibility. The weather report is only available if the scheduler is used. Limited fps impact, works in SP and MP.
+
+INSTALLATION
+------------
+
+
+
+Thanks 
+RickOShay

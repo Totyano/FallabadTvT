@@ -1,0 +1,36 @@
+
+ROS SANDSTORM version 4.6 by RickOShay
+--------------------------------------
+
+GENERAL FEATURES:
+-----------------
+Storm random scheduler for Listen/Dedicated servers, variable storm density, fixed or random storm length,
+variable colour and wind strength, variable visibility, indoor outdoor & in vehicle sound attenuation, wind
+affects small and medium sized objects - works day and night, protective eyewear check and damage, the scheduler script auto adjusts number of sandstorms based on available time to 24h00, allowance for existing mission time acceleration and wind settings, random prob of certain hats blowing off. Variable enemy response based on visibility. The weather report is only available if the scheduler is used. Limited fps impact, works in SP and MP.
+
+METHOD:
+-------
+There are two ways to start a sandstorm - either by using:
+ROS_Sandstorm_Scheduler - random start times and random number of sandstorms 
+or with:
+ROS_Sandstorm directly via a trigger or similar method at a specific mission time.
+
+In both cases you can you can have random or fixed storm lengths and wind direction.
+
+INSTALLATION AND MISSION SETTINGS:
+----------------------------------
+1) Copy the ROS_sandstorm folder from the zip file into your mission folder.
+2) Add the sound classes from the supplied example description.ext to your mission description.ext.
+See the headers for the above scripts in the ROS_sandstorm\scripts folder.
+
+NB !! WIND DIRECTION AND MISSION WEATHER SETTINGS
+----------------------------------------------------
+Check your missions weather settings.
+In the Eden editor - mission wind must be set to >0 strength and wind manual override must be off.
+Sandstorms don't appear if it is raining or there is a high prob of rain.
+You also need to either disable rain or set overcast to a maximum of 49%
+Also set Fog to a value > 0.
+
+Thanks for your support 
+
+RickOShay
