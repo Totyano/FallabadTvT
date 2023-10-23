@@ -13,11 +13,20 @@ cmfVers = "CMF2 1.2.2";
 #include "CfgLoadouts.hpp"
 #include "c\params.hpp"
 
+class CfgFunctions 
+{ 
+	#include "CfgFunctions.hpp"
+};
+
+
 // Respawn Settings
-respawn = 1;
-respawndelay = 3;
+respawn = "Base";
+Respawndelay = 999;
 respawnButton = 1;
 respawnOnStart = -1;
+DisabledAi = 1; 
+
+
 
 // ACE killtracking
 class CfgDebriefingSections {
@@ -235,7 +244,44 @@ class adhan2 {
 		name="tincan7";
 		sound[]={"ROS_sandstorm\sound\tincan7.ogg", 2,1};
 		titles[] = {};
-	};						
+	};
+	
+       class allah1
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "allah1";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "sounds\allah1.ogg", 50, 1, 300 };
+		titles[]= { 0, "" };
+	};
+	class allah2
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "allah2";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "sounds\allah2.ogg", 50, 1, 300 };
+		titles[]= { 0, "" };
+	};
+	class allah3
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "allah3";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "sounds\allah3.ogg", 50, 1, 300 };
+		titles[]= { 0, "" };
+	};
+	class allah4
+	{
+		// how the sound is referred to in the editor (e.g. trigger effects)
+		name = "allah4";
+
+		// filename, volume, pitch, distance (optional)
+		sound[] = { "sounds\allah4.ogg", 50, 1, 300 };
+		titles[]= { 0, "" };
+	};					
 };
 
 
